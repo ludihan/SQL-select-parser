@@ -1,6 +1,6 @@
 cabal-version: 3.0
 
-name:          processador-de-consultas
+name:          SQL-select-parser
 version:       0.1.0.0
 license:       BSD-3-Clause
 license-file:  LICENSE
@@ -9,7 +9,7 @@ build-type:    Simple
 extra-doc-files: 
     README.md
 
-executable processador-de-consultas
+executable SQL-select-parser
     main-is:          Main.hs
     other-modules:
         Sql.Parser,

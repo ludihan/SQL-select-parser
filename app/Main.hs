@@ -126,7 +126,7 @@ main = do
     startApp model handleEvent buildUI config
   where
     config =
-        [ appWindowTitle "Processador de Consultas"
+        [ appWindowTitle "SQL select parser"
         , appWindowIcon "./assets/images/icon.png"
         , appTheme darkTheme
         , appFontDef "Regular" "./assets/fonts/Hack-Regular.ttf"
